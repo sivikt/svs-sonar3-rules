@@ -1,14 +1,14 @@
 Some of my java rules for Sonar, 2015
 =====================================
 
-##How to deploy this plugin
+## How to deploy this plugin
 1. Build the project running `mvn clean install`.
 2. Go to `target` directory. Copy `svs-sonar-java-rules-<version>.jar` into `$SONARQUBE_HONE/extensions/plugins`.
 3. Restart SonarQube server.
 4. Goto [http://localhost:9000/profiles](http://localhost:9000/profiles) and make sure profile 
 'SVS Code Convention Rules' is exists and active.
 
-##How to develop this plugin
+## How to develop this plugin
 Useful links to start from:
 *[SonarQube platform documentation](http://docs.sonarqube.org/display/HOME/SonarQube+Platform)
 *[Developer documentation](http://docs.sonarqube.org/display/DEV/Extension+Guide)
@@ -17,7 +17,7 @@ Useful links to start from:
 *[SonarQube sources](https://github.com/SonarSource/sonarqube)
 *[SonarQube google group](https://groups.google.com/forum/#!forum/sonarqube)
 
-![Sonar platform][SonarPlatform.png]
+!(Sonar platform)[SonarPlatform.png]
 
 ##How to use this plugin
 Suppose that:  
