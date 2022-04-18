@@ -17,13 +17,12 @@ Useful links to start from:
 *[SonarQube sources](https://github.com/SonarSource/sonarqube)
 *[SonarQube google group](https://groups.google.com/forum/#!forum/sonarqube)
 
-!(Sonar platform)[SonarPlatform.png]
+![alt SonarPlatform](SonarPlatform.png)
 
-##How to use this plugin
+## How to use this plugin
 Suppose that:  
-
-1. Your SonarQube server is running on `SERVER_ADDRESS=http://localhost:9000`.
-2. SonarQube uses MySQL database accessible via jdbc `SERVER_JDBC_URL=jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8`.
+* Your SonarQube server is running on `SERVER_ADDRESS=http://localhost:9000`.
+* SonarQube uses MySQL database accessible via jdbc `SERVER_JDBC_URL=jdbc:mysql://localhost:3306/sonar?useUnicode=true&amp;characterEncoding=utf8`.
 
 
 1. Download [SonarQube Runner](http://www.sonarqube.org/downloads)  
